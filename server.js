@@ -10,8 +10,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Route for homepage
 app.get('/', (req, res) => {
   res.send(`
-    <h1>Hello! Test server running.</h1>
+    <h1>Hi How Are YOu?</h1>
     <img src="/fun.jpg" alt="Fun picture" width="300">
+    <img src="/a.jpg" alt="a picture" width="1000">
+  `);
   `);
 });
 
